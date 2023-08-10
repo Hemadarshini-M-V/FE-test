@@ -5,8 +5,8 @@ import styles from "../app/global.module.css";
 export default function AboutUs() {
     return (
       <div className={styles.about_us}>
-        <div className={styles.about_us_main + " grid grid-cols-2 gap-4 mt-12"}>
-            <div>
+        <div className={styles.about_us_main + " lg:grid lg:grid-cols-2 lg:gap-4 lg:mt-12"}>
+            <div className="hidden lg:block">
                 <div className={styles.about_us_left}>
                     ABOUT US
                 </div>
@@ -16,6 +16,14 @@ export default function AboutUs() {
                 <div className="mb-3">
                     Lorem
                 </div>
+            </div>
+
+            <div className="lg:hidden">
+                <div className={`lg:hidden ${styles.about_us_heading_mob}`} >
+                    LOREM IPSUM
+                </div>
+                <div className="my-4">Instagram</div>
+                <div className="mb-2">Linkedin</div>
             </div>
         
             <div className={styles.about_us_right}>

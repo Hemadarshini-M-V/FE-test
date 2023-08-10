@@ -6,7 +6,7 @@ export default function Marquee() {
     return(
         <div className={styles.marquee}>
             <div className={styles.track}>
-                <div className="text-white text-xl">
+                <div className="text-white text-lg">
                     <span className="mx-6">LOREM IPSUM</span>
                     <span className="mx-6">LOREM IPSUM</span>
                     <span className="mx-6">LOREM IPSUM</span>
