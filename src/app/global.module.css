@@ -1,10 +1,10 @@
 .main {
-    /* padding: 80px 75px 140px 75px; */
-    padding: 80px 300px 140px ;
+  /* padding: 80px 75px 140px 75px; */
+  padding: 80px 300px 140px ;
 
-    @media screen and (max-width: 992px) {
-      padding: 0 20px;
-    }
+  @media screen and (max-width: 992px) {
+    padding: 0 20px;
+  }
 }
 
 .intro_heading_mob {
@@ -33,7 +33,7 @@
 }
 
 .about_us_main{
-  padding: 80px 500px 140px 250px;
+  padding: 80px 500px 140px 300px;
 
   @media screen and (max-width: 992px){
     padding: 120px 12px 120px 12px;
@@ -140,7 +140,7 @@
   font-weight: 600;
   font-size: 26px;
   line-height: 24px;
-  padding: 15px 450px;
+  padding: 15px 250px;
 
   @media screen and (max-width:992px) {
     padding: 0;
@@ -156,7 +156,7 @@
   font-weight: 600;
   font-size: 26px;
   line-height: 24px;
-  padding: 15px 450px;
+  padding: 15px 250px;
   background-image: url("../../public//gradient_background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -174,7 +174,7 @@
   line-height: 30px;
   letter-spacing: -0.21px;
   text-align: left;
-  padding: 1rem 450px;
+  padding: 1rem 250px;
 
   @media screen and (max-width:992px) {
     padding: 1rem 0;

@@ -8,7 +8,10 @@ export default function AboutUs() {
         <div className={styles.about_us_main + " lg:grid lg:grid-cols-2 lg:gap-4 lg:mt-12"}>
             <div className="hidden lg:block">
                 <div className={styles.about_us_left}>
-                    ABOUT US
+                    ABOUT
+                </div>
+                <div className={styles.about_us_left}>
+                    US
                 </div>
                 <div className="my-3">
                     Lorem
